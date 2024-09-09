@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Inter } from "next/font/google";
 
 import { MantineProvider } from "@mantine/core";
@@ -11,6 +10,8 @@ export const metadata: Metadata = {
 };
 
 const inter = Inter({ subsets: ["latin"] });
+
+
 
 export default function RootLayout({
   children,
